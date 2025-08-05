@@ -1,0 +1,959 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.navu{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+.first{
+    display: flex;
+    gap:1%;
+}
+
+
+img{
+    width: 5%;
+}
+.h1{
+    font-family: 'Titillium Web', sans-serif;
+    /* color: aliceblue; */
+    
+}
+.bi{
+    justify-self: left;
+    font-size: 1.5rem;
+    display: flex;
+}
+.icon_div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+
+.select,.input{
+    width:10rem;
+    height:  2rem;    
+}
+.second{
+    display: flex;
+    justify-self: flex-end;
+}
+.input{
+    display: flex;
+    justify-items:flex-end;
+}
+h3{
+    font-family: 'Titillium Web', sans-serif;
+}
+.select>.pages{
+     font-family: 'Titillium Web', sans-serif;
+}
+
+.Organic{
+    display:flex;
+    position: absolute;
+    justify-self:self-start;
+
+}
+.back{
+    background-image: url("https://t4.ftcdn.net/jpg/02/47/84/83/360_F_247848348_c9xNhBpQ2aAS4UuSkz52n3BaeY6bXhmz.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.line{
+    /* width: 100vw; */
+    /* height: 40%; */
+    gap: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 3rem; */
+
+}
+.circle{
+    /* height: 6rem;
+    width: 6rem; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.1rem solid rgb(248, 246, 246);
+    display: flex;
+    justify-content: center;
+    /* margin-left: 2rem; */
+    
+
+}
+.first_img{
+    /* width: 50%;
+    height: 20%; */
+    width: 220px;
+
+    
+}
+.lin{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 7, 12);
+}
+
+.content{
+    color: yellow;
+    font-size: 5rem;
+    position: absolute;
+    top: 3rem;
+
+}
+
+.content2{
+    color: black;
+    font-size: 4rem;
+    position: absolute;
+    top: 9rem;
+    left: 3.5rem;
+
+}
+
+.content3{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+
+}
+.button1{
+    width: 10%;
+    height: 10%;
+    background-color: lightcoral;
+    color: white;
+    position: absolute;
+    top: 62%;
+    left:4%;
+    border-radius: 20%;
+    
+}
+.button2{
+    width: 10%;
+    height: 10%;
+    background-color: lightcoral;
+    color: white;
+    position: absolute;
+    top: 62%;
+    left:15%;
+    border-radius: 20%;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.first_block{
+    background-color: rgb(203, 203, 13);
+    width: 500px;
+    height: 15%;
+    position: absolute;
+    bottom: 0%; 
+    left: 5%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.second_block{
+    background-color: rgb(108, 209, 53);
+    width: 500px;
+    height: 15%;
+    position: absolute;
+    bottom: 0%;
+    right: 30%; 
+     display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 40px;
+}
+.third_block{
+    background-color: rgb(80, 12, 196);
+    width: 500px;
+    height: 15%;
+    position: absolute;
+    bottom: 0%;
+    right: 5%; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.line2{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    width: fit-content;
+    height: 100%;
+
+}
+.sub{
+    color:black;
+}
+.item1{
+    align-items: center;
+     align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.checked {
+  color: orange;
+}
+.rate{
+    justify-content: center;
+}
+.item2{
+    align-items: center;
+     align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.item3{
+    align-items: center;
+     align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.item4{
+    align-items: center;
+     align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.item5{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.main{
+    width: 100%;
+    height: 200px;
+}
+.item1:hover{
+    transform: scale(1.2);
+    border: 1px solid lightgray;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+.item2:hover{
+    transform: scale(1.2);
+    border: 1px solid lightgray;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.item3:hover{
+    transform: scale(1.2);
+    border: 1px solid lightgray;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+.item4:hover{
+    transform: scale(1.2);
+    border: 1px solid lightgray;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+
+.item5:hover{
+    transform: scale(1.1);
+    border: 1px solid lightgray;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+.item6:hover{
+    transform: scale(1.2);
+    border: 1px solid lightgray;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.customaize{
+    background-image: url("https://img.freepik.com/premium-photo/high-angle-view-food-table_1048944-23605514.jpg?w=996");
+    width: 100%;
+    height: 600px;
+    border: lightgrey;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.App{
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    bottom: 37%;
+    left: 25%;
+    background-color: transparent;
+    
+}
+.Download
+{
+    position: absolute;
+
+    top: 41%;
+    left: 22%;
+}
+
+
+
+
+
+/* .cus{
+    width: 100%;
+    height: 100%;
+    border: lightgrey;
+     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+     border-radius: 10%;
+
+
+} */
+
+
+
+
+
+
+.line3{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    width: fit-content;
+    height: 100%;
+
+}
+.subs{
+    color:black;
+}
+.item6{
+    align-items: center;
+     align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.checked {
+  color: orange;
+}
+.rate{
+    justify-content: center;
+}
+.item7{
+    align-items: center;
+     align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.item8{
+    align-items: center;
+     align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.item9{
+    align-items: center;
+     align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.item10{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.for{
+   
+    /* display: flex; */
+    background-image: url("https://img.freepik.com/premium-photo/strawberry-water-realistic-composition_717440-1578.jpg");
+    height: 600px;
+    width: 50%;
+    background-size: cover;
+    position: relative;
+    /* background-image:url("") */
+}
+.inner{
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.3MXlik9tGoPCTRhW7QGW1QHaE7?pid=Api&P=0&h=180");
+     height: 50%px;
+    width: 20%;
+    background-size: cover;
+    position: absolute;
+    right: 5%;
+
+}
+
+
+
+
+
+
+/* .straberry{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
+.basket{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    right: 7%;
+}
+
+.fruits_inside{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+
+} */
+
+/* 
+.basket{
+    position: absolute;
+    right: 7%;
+    width: 40%;
+    height: 40%;
+
+}
+.fruits_inside{
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    right: 7%;
+    top: 100%;
+
+} */
+
+
+
+
+
+.form{
+    background-image:url("https://tse1.mm.bing.net/th/id/OIP.FSFTpDYXqybKbBWKflAPOwHaE8?pid=Api&P=0&h=180");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+.leaves{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 2.5rem;
+    color: white;
+}
+.under_class{
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+.two{
+    position: absolute;
+    top:50%;
+    right: 10%;
+    font-size: 2.5rem;
+    gap: 10%;
+}
+.input,.email{
+    width: 600px;
+    font-size: 1.5rem;
+}
+.submit{
+    position: absolute;
+    right: 50%;
+}
+
+
+.three{
+    width: 100%;
+    height: 400px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.final{
+    width: 33%;
+    height: 90%;
+
+}
+.final1{
+    width: fit-content;
+    height: 90%;
+}
+.final_two{
+    width: 33%;
+    height: 90%;
+    
+
+}
+.final2{
+    width: fit-content;
+    height: 90%;
+}
+
+
+.final_three{
+    width: 33%;
+    height: 90%;
+
+}
+.final3{
+    width: fit-content;
+    height: 90%;
+}
+
+.last{
+    background-color: yellow;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+
+}
+
+/* .merge{
+    
+} */
+
+
+
+
+.line_buttons>h4{
+    width: fit-content;
+    height: 70%;
+    background-color: lightyellow;
+    color: black;
+}
+.line_buttons{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 70%;
+}
+
+
+.line_button1>h4{
+    width: fit-content;
+    height: 70%;
+    background-color: lightyellow;
+    color: black;
+}
+.line_button1{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 70%;
+}
+
+.last_end_final{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.last_end_final{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.free{
+    width:16%;
+    height: 69%;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10%;
+}
+
+.last_orga{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.yeahh{
+    font-size: 2rem;
+}
+.lst{
+    width:200px;
+    height: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+    
+
+}
+.adj{
+    display: flex;
+    justify-self: center;
+
+}
+.bi-facebook:hover{
+    transform: scale(1.2);
+}
+.bi-whatsapp:hover{
+    transform: scale(1.2);
+}
+.bi-messenger:hover{
+    transform: scale(1.2);
+}
+.bi-twitter:hover{
+    transform: scale(1.2);
+}
+.bi-facebook:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+.all_icon{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.kk{
+    display: flex;
+    justify-content: space-around;
+}
+.leaf{
+    height: 60px;
+    width: 30px;
+    color: green;
+    /* margin-top: ; */
+}
+.first-kk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+}
+.fk-h{
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.second-kk{
+    border: 2px solid lightgray;
+    width: fit-content;
+    background-color:lightgray;
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
+#category,input{
+    background-color:lightgray;
+    border-color: lightgray;
+}
+.search{
+    font-size: 35px;
+}
+.third-kk{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+
+
+}
+#categoryy{
+    height: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 90px;
+}
+
+/* Hide the checkbox from view */
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+.nav-menu {
+    display: none; /* Initially hidden */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 55px; /* Adjust as needed */
+    left: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+/* When the checkbox is checked, display the menu */
+.menu-toggle:checked ~ .nav-menu {
+    display: block;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-menu li:last-child {
+    border-bottom: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.nav-menu a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hide the checkbox from view */
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+.nav-menu {
+    display: none; /* Initially hidden */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    /* Key changes for fixed position */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 100%; /* Make it span the full height of the viewport */
+    width: 250px; /* Set a specific width for the menu */
+
+    background-color: #fff;
+    border-right: 1px solid #ddd; /* Use border-right instead of border */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+
+    /* To animate the menu sliding in/out */
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%); /* Hide it by moving it off-screen to the left */
+}
+
+/* When the checkbox is checked, display the menu */
+.menu-toggle:checked ~ .nav-menu {
+    display: block;
+    transform: translateX(0); /* Slide it back into view */
+}
+
+/* To prevent the menu from blocking the main content */
+.menu-toggle:checked ~ .nav-container > .menu-icon {
+    position: fixed;
+    z-index: 1001; /* Keep icon on top of menu */
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    padding: 15px 20px; /* Increased padding for better spacing */
+    border-bottom: 1px solid #eee;
+}
+
+.nav-menu li:last-child {
+    border-bottom: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.nav-menu a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+
+.button1:hover{
+    background-color: #000;
+    color: white;
+    transition: 2s ease;
+    transform: scale(1.2);
+}
+.button2:hover{
+    background-color: #000;
+    color: white;
+    transition: 2s ease;
+    transform: scale(1.2);
+}
+
+.copyrights{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.two_in{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.icon
+
+
+
+
+
+
+
